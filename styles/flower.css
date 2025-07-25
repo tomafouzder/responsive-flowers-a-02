@@ -19,7 +19,12 @@
 }
 /* shared styles */
 .primary-btn{
-
+    background-color: #E95A08;
+    padding:19px 80px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: none;
 }
 .flex{
 display: flex;
@@ -27,6 +32,12 @@ align-items: center;
 }
 .body{
    background-color: whitesmoke;
+}
+.font-two{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    
 }
 /* header styles  */
 /* navbar styles */
@@ -67,11 +78,47 @@ align-items: center;
     font-weight: bold;
 }
 .banner-describe{
-    font-size: 22px;
-    font-weight: 400;
     margin-top: 13px;
-    color: rgba(0, 0, 0, 0.5);
-    
+}
+/* main-section styles */
+.our-plants{
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 235px;
+}
+.plants{
+    text-align: center;
+}
+.plants-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.plants-describe{
+    margin-bottom: 50px;
 }
 
+.flower-gallery{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.gallery{
+    width: 270px;
+    height: 485px;
+    margin-bottom: 30px;
+    
+}
+.img-title{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    color: #111111;
+    margin-bottom: 20px;
+}
+.price{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: #111111;
+}
 
