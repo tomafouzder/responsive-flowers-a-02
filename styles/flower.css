@@ -5,6 +5,18 @@
   font-weight: 400;
   font-style: normal;
 }
+/* noto-serif-font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 /* shared styles */
 .primary-btn{
 
@@ -39,8 +51,27 @@ align-items: center;
 }
 .nav-link{
     text-decoration: none;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 500;
     color: #252432;
 }
+/* banner-title-styles */
+.banner{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+}
+.banner-describe{
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 13px;
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+
 
