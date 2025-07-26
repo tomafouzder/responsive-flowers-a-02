@@ -120,5 +120,43 @@ align-items: center;
     font-size: 22px;
     font-weight: bold;
     color: #111111;
+
+}
+/* trusted-style */
+.trusted{
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+
+}
+.trusted img{
+    width: 286px;
+    height: 286px;
+    box-shadow: -4px 10px 4px 0px rgba(0, 0, 0, 0.25);
+}
+/* flower-&-plants-lover-styles */
+.plants-lover{
+    display: grid;
+    grid-template-rows: 2,1fr;
+    
+}
+.flower-lover{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+    margin-bottom: 20px;
+
+}
+.box{
+    width: 540px;
+    height: 521px;
+}
+
+.flower-lover-describe li{
+    list-style-type: disc;
+    margin-bottom: 20px;
 }
 
