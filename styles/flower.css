@@ -134,7 +134,7 @@ align-items: center;
 .trusted img{
     width: 286px;
     height: 286px;
-    box-shadow: -4px 10px 4px 0px rgba(0, 0, 0, 0.25);
+    /* box-shadow: -4px 10px 4px 0px rgba(0, 0, 0, 0.25); */
 }
 /* flower-&-plants-lover-styles */
 .plants-lover{
@@ -159,4 +159,74 @@ align-items: center;
     list-style-type: disc;
     margin-bottom: 20px;
 }
+/* latest-deals-styles */
+.article{
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 134px;
+}
+/* grid-image-styles */
+.container{
+    width: 1140px;
+    height: 425px;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    gap: 28px;
 
+}
+.box-12{
+    height: 100%;
+    display: grid;
+    grid-row-start: auto;
+}
+.box-1{
+    background-image:url('../assets/deal-bloom.png');
+    background-repeat: no-repeat;
+    width: 365px;
+    height: 206px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.offer1{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding-top: 65px;
+}
+.shop{
+    font-size: 16px;
+    color: white;
+    font-weight: 600px;
+}
+.box-2{
+    background-image: url('../assets/deal-ana.png');
+    width: 367px;
+    height: 197px;
+}
+.boxs{
+    display: flex;
+    align-items: center;
+}
+
+.box-3{
+    background-image:url('../assets/deal-zabo.png');
+    background-repeat: no-repeat;
+    width: 753px;
+    height: 424px;
+    border-radius: 10px;
+    text-align: center;   
+}
+.offer2{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding-top: 172px;
+}
+.shops{
+    font-size: 28px;
+    color: white;
+    font-weight: 600px;
+}
